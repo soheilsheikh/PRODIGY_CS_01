@@ -40,6 +40,6 @@ elif user_input == 'd':
     print('Encryption mode selected')
     print()
     key = int(input('Enter Key(1 to 26):'))
-    text = input('Enter Text to Encrypt: ')
+    text = input('Enter Text to Decrypt: ')
     plaintext = encrypt_decrypt(text, user_input, key)
     print(f'Plaintext: {plaintext}')
